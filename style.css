@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 6.4rem;
+}
+
+/* HEADER START*/
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.6rem;
+}
+header h1 {
+  font-size: 4.8rem;
+  text-transform: capitalize;
+}
+.underline {
+  height: 0.5rem;
+  width: 50%;
+  background-color: #c59d5f;
+}
+/* Header koniec */
+/* Nav początek */
+nav {
+  padding: 2.4rem;
+}
+.btn-container {
+  display: flex;
+  gap: 2.4rem;
+}
+
+.btn {
+  padding: 1rem 1.4rem;
+  font-size: 1.8rem;
+  border-radius: 1.2rem;
+  background-color: transparent;
+  border-color: #c59d5f;
+  color: #c59d5f;
+  transition: all 0.3s ease-in-out;
+}
+.btn:hover {
+  background-color: #c59d5f;
+  color: white;
+  cursor: pointer;
+}
+/* Nav koniec */
+/* MAIN menu Start */
+.main-style {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 4.8rem;
+  row-gap: 6.4rem;
+  margin-top: 6.4rem;
+}
+
+.meal {
+  display: flex;
+  gap: 2.4rem;
+}
+/* Zdjęcie */
+.img-content img {
+  width: 200px;
+  height: 160px;
+  border: 5px solid #c59d5f;
+  border-radius: 0.5rem;
+}
+
+/* Nagłówek Dania*/
+.header-text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.6rem;
+  padding: 0 0 1.2rem;
+  border-bottom: 1px dotted grey;
+}
+.main-color {
+  color: #c59d5f;
+  font-weight: 700;
+}
+
+/* Tekst */
+.text-content {
+  font-size: 1.4rem;
+  padding: 1.4rem 0;
+}
+/* Main menu Koniec */
